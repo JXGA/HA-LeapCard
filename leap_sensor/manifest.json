@@ -1,0 +1,8 @@
+{
+  "domain": "leap_sensor",
+  "name": "Leap Card Sensor",
+  "documentation": "https://github.com/tba",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": []
+}
