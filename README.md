@@ -1,5 +1,8 @@
 # HA-LeapCard
-Display Dublin Leap Card balance in Home Assistant 
+Display Dublin Leap Card balance in Home Assistant
+
+![HA_IMG](https://raw.githubusercontent.com/xt16johnny/HA-LeapCard/master/images/sensor_img.png)
+
 
 # Instructions
 1. Run 'pip3 install pyleapcard' - See note below regarding issue of PyLeapCard. 
