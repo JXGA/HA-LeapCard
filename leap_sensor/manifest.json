@@ -1,8 +1,9 @@
 {
   "domain": "leap_sensor",
   "name": "Leap Card Sensor",
-  "documentation": "https://github.com/tba",
+  "documentation": "https://github.com/xt16johnny/HA-LeapCard",
   "dependencies": [],
   "codeowners": [],
-  "requirements": []
-}
+  "requirements": [
+      "PyLeapCardAPI==0.0.1"
+  ]}
