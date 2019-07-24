@@ -1,6 +1,6 @@
 from homeassistant.helpers.entity import Entity
 import json
-from pyleapcard import *
+from pyleapcardapi import *
 
 leap_username = "username"
 leap_password = "password"
