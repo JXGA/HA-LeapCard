@@ -1,4 +1,7 @@
 # HA-LeapCard
+
+![GitHub release](https://img.shields.io/github/release/xt16johnny/HA-LeapCard?color=dark-green)
+
 Display Dublin Leap Card balance in Home Assistant
 
 ![HA_IMG](https://raw.githubusercontent.com/xt16johnny/HA-LeapCard/master/images/sensor_img.png)
@@ -27,8 +30,8 @@ Display Dublin Leap Card balance in Home Assistant
       entity_id: sensor.leap_card_balance
       below: 5
     action:
-      - service: notify.ios_jiphone
+      - service: notify.ios_iphone
         data:
-          title: "Leap: Balance Low"
-          message: "Johnny Balance Low!"
+          title: "Leap: Balance Alert"
+          message: "Balance Low!"
 ```
