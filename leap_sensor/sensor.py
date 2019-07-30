@@ -5,6 +5,10 @@ from pyleapcardapi import *
 leap_username = "username"
 leap_password = "password"
 
+SCAN_INTERVAL = timedelta(minutes=5)
+ICON = 'mdi:credit-card'
+
+
 def leap_balance(user,password):
    session = LeapSession()
 
@@ -34,6 +38,11 @@ class LeapSensor(Entity):
     def name(self):
         """Return the name of the sensor."""
         return 'Leap Card Balance'
+
+    @property
+    def icon(self):
+        """Icon to use in the frontend, if any."""
+        return ICON
 
     @property
     def state(self):
