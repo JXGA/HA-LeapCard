@@ -1,6 +1,6 @@
 # HA-LeapCard
 
-![GitHub release](https://img.shields.io/github/release/xt16johnny/HA-LeapCard?color=dark-green)
+[![GitHub release](https://img.shields.io/github/release/xt16johnny/HA-LeapCard?color=dark-green)](#)
 
 Display Transport For Ireland (TFI) Leap Card balance in Home Assistant
 
@@ -12,9 +12,9 @@ Display Transport For Ireland (TFI) Leap Card balance in Home Assistant
 2. Add Leap Card credentials to configuration.yaml
 ```
  - platform: leap_sensor
-   name: 'My Leap Card Balance'    << Optional, defaults to 'Leap Card Balance'
-   username: 'username'            << Required
-   password: 'password'            << Required
+   name: 'My Leap Card Balance'    # Optional, defaults to 'Leap Card Balance'
+   username: 'username'            # Required
+   password: 'password'            # Required
    (or better, password: !secret leap_pw)
 ```
 
