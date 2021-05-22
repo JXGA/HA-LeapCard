@@ -1,3 +1,9 @@
+# This project is now archived. 
+
+The leap-card login page has changed and requires Microsoft authentication to access the site. 
+
+Unfortunately and disappointingly Leap still haven't provided a public API either, so it's no longer a straightforward process.
+
 # HA-LeapCard
 
 [![GitHub release](https://img.shields.io/github/release/xt16johnny/HA-LeapCard?color=dark-green)](#)
